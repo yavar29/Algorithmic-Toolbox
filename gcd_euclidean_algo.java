@@ -1,7 +1,11 @@
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println(GCD(3918848,1653264));
+        Scanner scanner = new Scanner(System.in);
+    	int a = scanner.nextInt();
+   	int b = scanner.nextInt();
+
+    	System.out.println(GCD(a, b));
     }
 
     // EUCLIDEAN ALGORITHM :
